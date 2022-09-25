@@ -1,0 +1,10 @@
+{
+	"prefix": "!",
+	"messages": {
+		"COOLDOWN_MESSAGE": "You are on `<duration>` cooldown!",
+		"NO_PERM": "You dont have the right Permissions, to use this Command!"
+	},
+    "mongo": "mongodb+srv://Nexusnight:LinusSockenStinken@nexusnight.1ed4tom.mongodb.net/?retryWrites=true&w=majority",
+	"hostedBy": true,
+	"everyoneMention": false
+}

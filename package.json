@@ -1,0 +1,30 @@
+{
+  "name": "nexusnight.net-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@iamtraction/google-translate": "^1.1.2",
+    "ascii-table": "^0.0.9",
+    "axios": "^0.27.2",
+    "canvacord": "^5.4.6",
+    "canvas": "^2.10.1",
+    "chalk": "^4.1.2",
+    "discord-giveaways": "^6.0.1",
+    "discord-xp": "^1.1.16",
+    "discord.js": "^14.3.0",
+    "got": "^11.8.3",
+    "mongoose": "^6.5.4",
+    "ms": "^2.1.3",
+    "quick.db": "^9.0.6",
+    "reconlx": "^1.0.46",
+    "translate-google": "^1.5.0"
+  }
+}

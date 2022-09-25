@@ -1,0 +1,181 @@
+)0[?1049h[4l[?1h=[0m(B[1;49r[H[J[H[J[34m0=====================0[39m
+[34m|  Commands   | Stats |[39m
+[34m|=============|=======|[39m
+[34m| help        | ✅     |[39m
+[34m| ping        | ✅     |[39m
+[34m| addxp       | ✅     |[39m
+[34m| leaderboard | ✅     |[39m
+[34m| rank        | ✅     |[39m
+[34m| removexp    | ✅     |[39m
+[34m| setxp       | ✅     |[39m
+[34m| lock        | ✅     |[39m
+[34m| lock        | ✅     |[39m
+[34m0=====================0[39m
+[32m[92m0=======================0[39m
+[32m[92m|    Events     | Stats |[39m
+[32m[92m|===============|=======|[39m
+[32m[92m| level         | ✅     |[39m
+[32m[92m| messageCreate | ✅     |[39m
+[32m[92m| ready         | ✅     |[39m
+[32m[92m0=======================0[39m
+connected to the database
+[31m0========================0[39m
+[31m| Slash Commands | Stats |[39m
+[31m|================|=======|[39m
+[31m| info           | ✅     |[39m
+[31m0========================0[39m
+Error: Expected token to be set for this request, but none was present
+    at _RequestManager.resolveRequest [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/RequestManager.cjs:142:15[30m[90m)[39m
+    at _RequestManager.queueRequest [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/RequestManager.cjs:115:46[30m[90m)[39m
+    at REST.raw [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/REST.cjs:56:32[30m[90m)[39m
+    at REST.request [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/REST.cjs:52:33[30m[90m)[39m
+    at REST.put [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/REST.cjs:46:17[30m[90m)[39m
+    at [30m[90m/home/ugur/NexusnightJS/nexusnight.net-js/[39mhandlers/slashCommand.js:46:16
+    at module.exports [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mhandlers/slashCommand.js:56:4[30m[90m)[39m
+    at [30m[90m/home/ugur/NexusnightJS/nexusnight.net-js/[39mindex.js:55:35
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mindex.js:54:30[30m[90m)[39m
+[30m[90m    at Module._compile (node:internal/modules/cjs/loader:1126:14)[39m
+[30m[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)[39m
+[30m[90m    at Module.load (node:internal/modules/cjs/loader:1004:32)[39m
+[30m[90m    at Function.Module._load (node:internal/modules/cjs/loader:839:12)[39m
+[30m[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[30m[90m    at node:internal/main/run_main_module:17:47[39m
+[31mLogged in as NEXUSNIGHT SYSTEM#4282![39m
+/home/ugur/NexusnightJS/nexusnight.net-js/node_modules/@sapphire/shapeshift/dist/index.js:1161
+      return Result.err(new ValidationError("s.object(T)", `Expected the value to be an object, but received ${typeOfValue} instead`, value));
+                        ^
+
+ValidationError: Expected the value to be an object, but received string instead
+    at ObjectValidator.handle [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@sapphire[24m/shapeshift/dist/index.js:1161:25[30m[90m)[39m
+    at ObjectValidator.parse [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@sapphire[24m/shapeshift/dist/index.js:113:88[30m[90m)[39m
+    at EmbedBuilder.setFooter [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/builders/dist/messages/embed/Embed.cjs:66:37[30m[90m)[39m
+    at Object.run [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mcommands/info/help.js:64:18[30m[90m)[39m
+    at Client.<anonymous> [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mevents/messageCreate.js:58:12[30m[90m)[39m
+[30m[90m    at Client.emit (node:events:525:35)[39m
+    at MessageCreateAction.handle [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mdiscord.js[24m/src/client/actions/MessageCreate.js:23:14[30m[90m)[39m
+    at Object.module.exports [as MESSAGE_CREATE] [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mdiscord.js[24m/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32[30m[90m)[39m
+    at WebSocketManager.handlePacket [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mdiscord.js[24m/src/client/websocket/WebSocketManager.js:352:31[30m[90m)[39m
+    at WebSocketShard.onPacket [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mdiscord.js[24m/src/client/websocket/WebSocketShard.js:481:22[30m[90m)[39m
+    at WebSocketShard.onMessage [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mdiscord.js[24m/src/client/websocket/WebSocketShard.js:321:10[30m[90m)[39m
+    at WebSocket.onMessage [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mws[24m/lib/event-target.js:199:18[30m[90m)[39m
+[30m[90m    at WebSocket.emit (node:events:513:28)[39m
+    at Receiver.receiverOnMessage [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mws[24m/lib/websocket.js:1178:20[30m[90m)[39m
+[30m[90m    at Receiver.emit (node:events:513:28)[39m
+    at Receiver.dataMessage [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mws[24m/lib/receiver.js:528:14[30m[90m)[39m {
+  validator: [32m's.object(T)'[39m,
+  given: [32m'Requested by ΛПGΣᄂ#0570'[39m
+}
+[?1l>[49;1H
+[?1049l[screen is terminating]
+)0[?1049h[4l[?1h=[0m(B[1;49r[H[J[H[J[34m0=====================0[39m
+[34m|  Commands   | Stats |[39m
+[34m|=============|=======|[39m
+[34m| help        | ✅     |[39m
+[34m| ping        | ✅     |[39m
+[34m| addxp       | ✅     |[39m
+[34m| leaderboard | ✅     |[39m
+[34m| rank        | ✅     |[39m
+[34m| removexp    | ✅     |[39m
+[34m| setxp       | ✅     |[39m
+[34m| lock        | ✅     |[39m
+[34m| lock        | ✅     |[39m
+[34m0=====================0[39m
+[32m[92m0=======================0[39m
+[32m[92m|    Events     | Stats |[39m
+[32m[92m|===============|=======|[39m
+[32m[92m| level         | ✅     |[39m
+[32m[92m| messageCreate | ✅     |[39m
+[32m[92m| ready         | ✅     |[39m
+[32m[92m0=======================0[39m
+connected to the database
+[31m0========================0[39m
+[31m| Slash Commands | Stats |[39m
+[31m|================|=======|[39m
+[31m| info           | ✅     |[39m
+[31m0========================0[39m
+Error: Expected token to be set for this request, but none was present
+    at _RequestManager.resolveRequest [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/RequestManager.cjs:142:15[30m[90m)[39m
+    at _RequestManager.queueRequest [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/RequestManager.cjs:115:46[30m[90m)[39m
+    at REST.raw [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/REST.cjs:56:32[30m[90m)[39m
+    at REST.request [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/REST.cjs:52:33[30m[90m)[39m
+    at REST.put [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/REST.cjs:46:17[30m[90m)[39m
+    at [30m[90m/home/ugur/NexusnightJS/nexusnight.net-js/[39mhandlers/slashCommand.js:46:16
+    at module.exports [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mhandlers/slashCommand.js:56:4[30m[90m)[39m
+    at [30m[90m/home/ugur/NexusnightJS/nexusnight.net-js/[39mindex.js:55:35
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mindex.js:54:30[30m[90m)[39m
+[30m[90m    at Module._compile (node:internal/modules/cjs/loader:1126:14)[39m
+[30m[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)[39m
+[30m[90m    at Module.load (node:internal/modules/cjs/loader:1004:32)[39m
+[30m[90m    at Function.Module._load (node:internal/modules/cjs/loader:839:12)[39m
+[30m[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[30m[90m    at node:internal/main/run_main_module:17:47[39m
+[31mLogged in as NEXUSNIGHT SYSTEM#4282![39m
+/home/ugur/NexusnightJS/nexusnight.net-js/functions/menu.js:36
+    let ccct = new MessageSelectMenu()
+               ^
+
+TypeError: MessageSelectMenu is not a constructor
+    at create_mh [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mfunctions/menu.js:36:16[30m[90m)[39m
+    at Object.run [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mcommands/info/help.js:75:25[30m[90m)[39m
+    at Client.<anonymous> [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mevents/messageCreate.js:58:12[30m[90m)[39m
+[30m[90m    at Client.emit (node:events:525:35)[39m
+    at MessageCreateAction.handle [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mdiscord.js[24m/src/client/actions/MessageCreate.js:23:14[30m[90m)[39m
+    at Object.module.exports [as MESSAGE_CREATE] [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mdiscord.js[24m/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32[30m[90m)[39m
+    at WebSocketManager.handlePacket [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mdiscord.js[24m/src/client/websocket/WebSocketManager.js:352:31[30m[90m)[39m
+    at WebSocketShard.onPacket [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mdiscord.js[24m/src/client/websocket/WebSocketShard.js:481:22[30m[90m)[39m
+    at WebSocketShard.onMessage [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mdiscord.js[24m/src/client/websocket/WebSocketShard.js:321:10[30m[90m)[39m
+    at WebSocket.onMessage [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mws[24m/lib/event-target.js:199:18[30m[90m)[39m
+[30m[90m    at WebSocket.emit (node:events:513:28)[39m
+    at Receiver.receiverOnMessage [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mws[24m/lib/websocket.js:1178:20[30m[90m)[39m
+[30m[90m    at Receiver.emit (node:events:513:28)[39m
+    at Receiver.dataMessage [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mws[24m/lib/receiver.js:528:14[30m[90m)[39m
+    at Receiver.getData [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mws[24m/lib/receiver.js:446:17[30m[90m)[39m
+    at Receiver.startLoop [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4mws[24m/lib/receiver.js:148:22[30m[90m)[39m
+[?1l>[49;1H
+[?1049l[screen is terminating]
+)0[?1049h[4l[?1h=[0m(B[1;49r[H[J[H[J[34m0=====================0[39m
+[34m|  Commands   | Stats |[39m
+[34m|=============|=======|[39m
+[34m| help        | ✅     |[39m
+[34m| ping        | ✅     |[39m
+[34m| addxp       | ✅     |[39m
+[34m| leaderboard | ✅     |[39m
+[34m| rank        | ✅     |[39m
+[34m| removexp    | ✅     |[39m
+[34m| setxp       | ✅     |[39m
+[34m| lock        | ✅     |[39m
+[34m| lock        | ✅     |[39m
+[34m0=====================0[39m
+[32m[92m0=======================0[39m
+[32m[92m|    Events     | Stats |[39m
+[32m[92m|===============|=======|[39m
+[32m[92m| level         | ✅     |[39m
+[32m[92m| messageCreate | ✅     |[39m
+[32m[92m| ready         | ✅     |[39m
+[32m[92m0=======================0[39m
+connected to the database
+[31m0========================0[39m
+[31m| Slash Commands | Stats |[39m
+[31m|================|=======|[39m
+[31m| info           | ✅     |[39m
+[31m0========================0[39m
+Error: Expected token to be set for this request, but none was present
+    at _RequestManager.resolveRequest [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/RequestManager.cjs:142:15[30m[90m)[39m
+    at _RequestManager.queueRequest [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/RequestManager.cjs:115:46[30m[90m)[39m
+    at REST.raw [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/REST.cjs:56:32[30m[90m)[39m
+    at REST.request [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/REST.cjs:52:33[30m[90m)[39m
+    at REST.put [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mnode_modules/[4m@discordjs[24m/rest/dist/lib/REST.cjs:46:17[30m[90m)[39m
+    at [30m[90m/home/ugur/NexusnightJS/nexusnight.net-js/[39mhandlers/slashCommand.js:46:16
+    at module.exports [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mhandlers/slashCommand.js:56:4[30m[90m)[39m
+    at [30m[90m/home/ugur/NexusnightJS/nexusnight.net-js/[39mindex.js:55:35
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> [30m[90m(/home/ugur/NexusnightJS/nexusnight.net-js/[39mindex.js:54:30[30m[90m)[39m
+[30m[90m    at Module._compile (node:internal/modules/cjs/loader:1126:14)[39m
+[30m[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)[39m
+[30m[90m    at Module.load (node:internal/modules/cjs/loader:1004:32)[39m
+[30m[90m    at Function.Module._load (node:internal/modules/cjs/loader:839:12)[39m
+[30m[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[30m[90m    at node:internal/main/run_main_module:17:47[39m
+[31mLogged in as NEXUSNIGHT SYSTEM#4282![39m
